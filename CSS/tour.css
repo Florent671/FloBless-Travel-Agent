@@ -84,6 +84,9 @@ body{
     .support {
       font-size: 20px;
     }
+    p {
+      text-align: justify;
+    }
     .footer {
       background-color: black;
       color: white;

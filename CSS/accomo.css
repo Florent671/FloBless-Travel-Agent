@@ -83,6 +83,9 @@
       padding: 15px;
       width: 100%;
     }
+    p {
+      text-align: justify;
+    }
     .grid img {
       height: 160px;
       width: 100%;

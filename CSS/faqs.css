@@ -95,6 +95,9 @@ img{
     padding: 15px;
     width: 100%;
   }
+  p {
+    text-align: justify;
+  }
   .aside li {
     list-style: none;
   }
@@ -131,5 +134,13 @@ width: 100%;
     .aside {
       font-size: 10px
     } 
-    
+    .company-name p {
+      font-size: 30px;
+    }
+    .q1 {
+      display: block;
+    }
+    .q2 {
+      display: block;
+    }
   }
