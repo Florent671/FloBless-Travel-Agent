@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+  .main-container{
+    width: 100%;
+    position: fixed;
+  }
+  .company-name{
+      border: 4px solid;
+      border-radius: 10px;
+      background-color: rgb(111, 0, 255);
+      color: white;
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 40px;
+      width: 100%;
+      /* position: absolute; */
+     }
+  .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  nav list {
+    display: flex;
+   padding: 10px;
+   justify-content: space-between;
+  }
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form {
+  padding-left: 600px;
+}
+.question{
+    padding-top: 80px;
+}
+img{
+    height: 30vh;
+    width: 340px;
+    max-width: 100%;
+}
+.q1 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10;
+}
+.image{
+    flex:2
+}
+.qst1{
+    flex: 2;
+}
+.q2{
+    display: flex;
+    padding: 10px;
+    
+}
+.qst2 {
+    flex: 2;
+}
+.question li {
+    list-style: none;
+    border-radius: 3px ;
+    background-color: aliceblue;
+    padding: 5px;
+}
+.question a {
+    text-decoration: none;
+    color:black;
+}
+.question a:hover {
+    color: brown;
+}
+
+  .aside {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .main {
+    padding: 10px; 
+  }
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+  }
+  .aside li {
+    list-style: none;
+  }
+  .aside a {
+    text-decoration: none;
+    color: white;
+    /* font-size: 20px; */
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .main p {
+      width: 100%;
+    }
+    .row img { 
+width: 100%;
+    }
+    .company-name p {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width:760px) {
+
+    .image img {
+      width: 100%;
+    }
+    .aside {
+      font-size: 15px
+    }
+  }
+  @media screen and (max-width:500px){
+    .image img {
+      width: 100%;
+    }
+    .aside {
+      font-size: 10px
+    } 
+    
+  }

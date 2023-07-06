@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .main-container{
     width: 100%;
     position: fixed;
@@ -31,30 +34,7 @@
   form {
     padding-left: 600px;
   }
-  .dropbtn {
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px ;
-    padding: 12px;
-  }
-  .dropdown-content a {
-    color: black;
-    padding:12px ;
-    display: block;
-    text-decoration: none;
-  }
-    .dropdown-content a:hover {
-  background-color: beige;
-    }
+  
     .aside {
       background-color: blueviolet;
       color: white;
@@ -76,11 +56,49 @@
         display: flex;
         justify-self: flex-start;
     }
-    
+    .image {
+      height: auto;
+      max-width: 100%;
+
+    }
+    .input {
+      padding-left: 3px;
+    }
+    .contact_info {
+     padding-right: 50%;
+     padding-left: 10px;
+    }
     .footer {
       background-color: black;
       color: white;
       text-align: center;
       padding: 15px;
       width: 100%;
+    }
+    .aside li {
+      list-style: none;
+    }
+    .aside a {
+      text-decoration: none;
+      color: white;
+      /* font-size: 20px; */
+    }
+   
+    @media screen and (max-width:760px) {
+  
+      .image img {
+        width: 100%;
+      }
+      .aside {
+        font-size: 15px
+      }
+    }
+    @media screen and (max-width:500px){
+      .image img {
+        width: 100%;
+      }
+      .aside {
+        font-size: 10px
+      } 
+      
     }

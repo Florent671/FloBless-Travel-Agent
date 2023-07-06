@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .top-container{
     width: 100%;
     position: fixed;
@@ -30,30 +33,17 @@
   form {
     padding-left: 600px;
   }
-  .dropbtn {
-    color: white;
-    border: none;
-    cursor: pointer;
+
+  .carousel-item img {
+    height: 60vh;
+    width: 100%;
   }
-  .dropdown {
-    position: relative;
-    display: inline-block;
+  .grid {
+    box-shadow: 5px 7px 8px;
+    margin-top: 10px;
+    padding: 6px;
   }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px ;
-    padding: 12px;
-  }
-  .dropdown-content a {
-    color: black;
-    padding:12px ;
-    display: block;
-    text-decoration: none;
-  }
-    .dropdown-content a:hover {
-  background-color: beige;
-    }
+  
     .aside {
       background-color: blueviolet;
       color: white;
@@ -61,6 +51,7 @@
       width: 100%;
       display: flex;
       justify-content: space-around;
+      
     }
     a {
       text-decoration: none ;
@@ -71,10 +62,55 @@
     .support {
       font-size: 20px;
     }
+    img {
+      height: auto;
+      max-width: 100%;
+      
+      width: 100%;
+    }
+    .container {
+      display: grid;
+      grid-template-columns:repeat(2, 1fr);
+      grid-gap: 13px;
+      /* box-shadow: 7px 8px 8px; */
+      margin: 10px;
+      
+    }
     .footer {
       background-color: black;
       color: white;
       text-align: center;
       padding: 15px;
       width: 100%;
+    }
+    .grid img {
+      height: 160px;
+      width: 100%;
+    }
+    .aside li {
+      list-style: none;
+    }
+    .aside a {
+      text-decoration: none;
+      color: white;
+      /* font-size: 20px; */
+    }
+   
+    @media screen and (max-width:760px) {
+  
+      .image img {
+        width: 100%;
+      }
+      .aside {
+        font-size: 15px
+      }
+    }
+    @media screen and (max-width:500px){
+      .image img {
+        width: 100%;
+      }
+      .aside {
+        font-size: 10px
+      } 
+      
     }
