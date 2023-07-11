@@ -130,12 +130,9 @@ width: 100%;
   @media screen and (max-width:500px){
     .image img {
       width: 100%;
-    }
-    .aside {
-      font-size: 10px
     } 
-    .company-name p {
-      font-size: 30px;
+    .question {
+      padding: 10px;
     }
     .q1 {
       display: block;
@@ -143,4 +140,18 @@ width: 100%;
     .q2 {
       display: block;
     }
+  
+    .company-name p {
+      font-size: 20px;
+      text-align: center;
+    }
+    .image img {
+      width: 100%;
+    }
+    .aside {
+      font-size: 14px;
+      display: block;
+    } 
   }
+    
+  

@@ -14,7 +14,7 @@
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 40px;
       width: 100%;
-      /* position: absolute; */
+      text-align: center;
      }
   .nav {
       display: flex;
@@ -95,13 +95,23 @@
       .aside {
         font-size: 15px
       }
+      .company-name p {
+        font-size: 25px;
+        text-align: center;
+      }
     }
+   
     @media screen and (max-width:500px){
+      .company-name p {
+        font-size: 20px;
+        text-align: center;
+      }
       .image img {
         width: 100%;
       }
       .aside {
-        font-size: 10px
+        font-size: 14px;
+        display: block;
       } 
       
     }

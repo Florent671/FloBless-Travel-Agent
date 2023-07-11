@@ -59,9 +59,7 @@
     ul {
       list-style: none;
     }
-    .support {
-      font-size: 20px;
-    }
+    
     img {
       height: auto;
       max-width: 100%;
@@ -108,12 +106,23 @@
         font-size: 15px
       }
     }
+   
     @media screen and (max-width:500px){
+      .company-name p {
+        font-size: 20px;
+        text-align: center;
+      }
       .image img {
         width: 100%;
       }
       .aside {
-        font-size: 10px
+        font-size: 14px;
+        display: block;
       } 
+      .container{
+        display: block;
+        padding: 5px;
+        margin: 10px;
+      }
       
     }
